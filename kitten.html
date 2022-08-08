@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Michael Klepacki — Human</title>
+		<meta name="description" content="UX/UI Designer living in Paris. I craft human-oriented products and experiences that empower people and spark joy.">
+		<link rel="image_src" href="img/link-previews/index-preview.png">
+		<meta property="og:title" content="Michael Klepacki — Human">
+		<meta property="og:description" content="UX/UI Designer living in Paris. I craft human-oriented products and experiences that empower people and spark joy.">
+		<meta property="og:image" content="img/thumbnail.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- FAVICONS -->
+		<link rel="shortcut icon" type="image/png" href="img/favicon/favicon-32.png" sizes="32x32">
+		<link rel="shortcut icon" type="image/png" href="img/favicon/favicon-128.png" sizes="128x128">
+		<link rel="shortcut icon" type="image/png" href="img/favicon/favicon-152.png" sizes="152x152">
+		<link rel="shortcut icon" type="image/png" href="img/favicon/favicon-167.png" sizes="167x167">
+		<link rel="shortcut icon" type="image/png" href="img/favicon/favicon-180.png" sizes="180x180">
+		<link rel="shortcut icon" type="image/png" href="img/favicon/favicon-192.png" sizes="192x192">
+		<link rel="shortcut icon" type="image/png" href="img/favicon/favicon-196.png" sizes="196x196">
+		<!-- STYLE SHEETS -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- SCRIPTS -->
+		<script async src="js/nav.js"></script>
+	</head>
+	<body>
+		<!--
+			HEADER
+		 -->
+		<header id="header">
+			<div id="navBar">
+				<div class="logo">
+					<a href="index.html">
+						<svg width="92" height="62" viewBox="0 0 92 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M85.9094 0.58933L85.9059 0.59149L40.2648 27.6907L6.51604 0.890282L6.51394 0.888582C5.82733 0.333304 4.95125 0 4 0C1.79086 0 0 1.79086 0 4V52C1.71959e-05 57.1854 3.94649 61.4487 9 61.9506V62L82.006 62C87.5261 61.9968 92.0001 57.5209 92.0001 52V51.9989L92 51.9578L92 51.9567L92 4C92 1.79086 90.2091 0 88 0C87.2356 0 86.5184 0.215445 85.9094 0.58933ZM8 52V12.2843L60.5308 54L10 54C8.89545 54 8.00001 53.1045 8 52ZM84 52.0191V11.0269L46.9685 33.0143L73.395 54L82.0001 54C83.0983 54 83.9898 53.1148 84 52.0191Z" fill="#1E1E1E"/>
+						</svg>
+					</a>
+				</div>
+				<div class="nav-toggle">
+					<a href="javascript:void(0);" id="navOpen" onclick="toggleNav()">Kitten</a>
+					<a href="javascript:void(0);" id="navClose" class="hidden" onclick="toggleNav()">Close</a>
+				</div>
+			</div>
+			<!-- NAVIGATION -->
+			<nav id="mainNav">
+				<a class="active-page" href="human.html">← Human</a>
+				<a class="inactive-page" href="index.html">Designer</a>
+				<a class="inactive-page" href="photographer.html">Photographer</a>
+			</nav>
+		</header>
+		<!--
+			PROGRESS BAR
+		 -->
+		<div id="progressBar"></div>
+		<!--
+			PAGE
+		 -->
+		<main class="page-wrapper below-header">
+			<div class="container-text centered">
+				<img
+					srcset="img/human/kitten-640.jpg 640w,
+							img/human/kitten-768.jpg 768w,
+							img/human/kitten-1024.jpg 1024w,
+							img/human/kitten-1336.jpg 1336w,
+							img/human/kitten-1600.jpg 1600w,
+							img/human/kitten-1920.jpg 1920w"
+					sizes="(max-width: 640px) 640px,
+							(max-width: 768px) 768px,
+							(max-width: 1024px) 1024px,
+							(max-width: 1336px) 1336px,
+							(max-width: 1600px) 1600px,
+							1920px"
+					src="img/human/kitten-1920.jpg"
+					alt="A photo of my cat, Kitten, laying in bed and peeking through a bookcase."
+				>
+			</div>
+			<!--
+				FOOTER
+			-->
+			<div id="footer">
+				<p>&copy; 2022 Michael Klepacki. Built from scratch with love, sweat, & tears.</p>
+			</div>
+		</main>
+	</body>
+</html>
